@@ -1,0 +1,22 @@
+Существует два утверждения SQL: DDL - язык определения данных и DML - язык определения данных
+
+DDL:
+CREATE DATABASE dbname - Создание бд
+USE db - Выбор текущей бд
+DROP DATABASE dbname - Удаление бд и её таблиц
+CREATE TABLE tbname - Создание таблицы
+DROP TABLE tbname - Удаление таблицы
+TRUNCATE TABLE tbname - Удаление всех строк таблицы
+
+DML:
+Онсовыне операции DML можно запомнить с помощью акронима CRUD
+Create(INSERT)
+Read(SELECT)
+Update(UPDATE)
+Delete(DELETE)
+INSERT INTO tbname - Добавление ряда
+SELECT * FROM tbname - Выборка всех рядов и граф
+SELECT cols FROM tbname - Выборка всех рядов и некоторых граф
+SELECT cols FROM tbname WHERE condition - Выборка некоторых рядов и некоторых граф
+UPDATE tbname SET col = value WHERE condition - Изменение некоторых рядов в графе
+DELETE FROM tbname WHERE condition - Удаление некоторых рядов
